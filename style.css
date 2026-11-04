@@ -1,0 +1,32 @@
+.spock{
+    width: 200px;
+    border-radius: 10px;
+    border: 3px solid darkblue;
+    animation: zoomInAnimation 0.5s
+    
+}
+@keyframes zoomInAnimation {
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.element {
+  animation-name: zoomInAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+.cat{
+    width: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+    border: 2px dashed darkred
+}
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    background-color:cadetblue;
+    color:black
+}
